@@ -4,7 +4,7 @@ import ExplanationImg from "../public/images/explanation.png";
 
 const Explanation: FC = () => {
   return (
-    <div className="flex flex-col md:flex-row-reverse justify-center items-center py-4 md:py-12 shadow-lg">
+    <div className="flex flex-col md:flex-row-reverse justify-center items-center py-4 md:py-12 shadow-lg max-w-screen-lg mx-auto">
       <div className="w-1/2">
         <Image src={ExplanationImg} alt="Deep ID" />
       </div>

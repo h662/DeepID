@@ -4,6 +4,7 @@ import { useTranslation } from "next-i18next";
 import Intro from "../components/Intro";
 import Explanation from "../components/Explanation";
 import Process from "../components/Process";
+import Contact from "../components/Contact";
 
 const COMMON = "common";
 
@@ -11,10 +12,11 @@ const Home: NextPage = () => {
   const { t } = useTranslation(COMMON);
 
   return (
-    <main className="max-w-screen-lg mx-auto">
+    <main>
       <Intro />
       <Explanation />
       <Process />
+      <Contact />
     </main>
   );
 };

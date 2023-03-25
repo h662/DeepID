@@ -5,7 +5,7 @@ import IntroLoading from "../public/images/intro.jpg";
 
 const Intro: FC = () => {
   return (
-    <div className="relative flex justify-center items-end h-72 md:h-96 shadow-lg">
+    <div className="relative flex justify-center items-end h-72 md:h-96 shadow-lg max-w-screen-lg mx-auto">
       <div className="absolute top-0 z-20">
         <Image
           className="w-screen max-w-5xl mx-auto h-72 md:h-96 object-cover"

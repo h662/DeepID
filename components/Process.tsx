@@ -12,7 +12,7 @@ import BlockchainImg from "../public/images/blockchain.png";
 
 const Process: FC = () => {
   return (
-    <div className="shadow-lg">
+    <div className="shadow-lg  max-w-screen-lg mx-auto">
       <div className="bg-main text-white text-center text-xl md:text-4xl tracking-wider py-6 flex justify-center items-center">
         <Image
           className="w-36 md:w-60 mr-4 md:mr-8"
