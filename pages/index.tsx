@@ -5,6 +5,7 @@ import Intro from "../components/Intro";
 import Explanation from "../components/Explanation";
 import Process from "../components/Process";
 import Contact from "../components/Contact";
+import Partners from "../components/Partners";
 
 const COMMON = "common";
 
@@ -16,6 +17,7 @@ const Home: NextPage = () => {
       <Intro />
       <Explanation />
       <Process />
+      <Partners />
       <Contact />
     </main>
   );

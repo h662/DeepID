@@ -2,6 +2,7 @@ import Image from "next/image";
 import { FC } from "react";
 import IntroGif from "../public/images/intro.gif";
 import IntroLoading from "../public/images/intro.jpg";
+import { Link } from "react-scroll";
 
 const Intro: FC = () => {
   return (
@@ -20,8 +21,10 @@ const Intro: FC = () => {
           alt="IntroLoading"
         />
       </div>
-      <button className="z-30 text-white mb-4 text-4xl md:text-6xl animate__animated animate__heartBeat animate__infinite">
-        ⌵
+      <button className="z-30 text-white font-black mb-4 text-4xl md:text-6xl animate__animated animate__heartBeat animate__infinite">
+        <Link to="explanation" spy={true} smooth={true}>
+          ⌵
+        </Link>
       </button>
     </div>
   );
