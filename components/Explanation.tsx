@@ -14,10 +14,8 @@ const Explanation: FC = () => {
       <div className="py-8 md:w-1/2 px-8">
         <div className="mb-4 font-bold text-2xl md:text-4xl">Deep ID ?</div>
         <div>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
-          earum, tempora dolore quis voluptatem, cumque consectetur nihil
-          dolorem debitis, voluptates fuga corrupti possimus non iure! Nisi
-          consequuntur ea veritatis fugiat!
+          AI Vision & Blockchain technology integrated Anti-Counterfeiting
+          Serviced Platform
         </div>
       </div>
     </div>

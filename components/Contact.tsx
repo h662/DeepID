@@ -7,7 +7,7 @@ const Contact: FC = () => {
         <div>ken@logichain.kr</div>
       </div>
       <div className="flex  items-center">
-        <div>+82 10-8626-2622</div>
+        <div>+82-(0)2-458-7321</div>
       </div>
     </div>
   );

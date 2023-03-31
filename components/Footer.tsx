@@ -10,13 +10,13 @@ const Footer: FC = () => {
         </div>
       </div>
       <div className="mt-2 md:mt-4">
-        <div>LABORATORY</div>
+        <div>Fintech R&D Lab.</div>
         <div className="md:mt-1">
-          101, Jungang-ro, Jung-gu, Daejeon, Republic of Korea
+          #1123, 78, Mapo-Daero, Mapo-Ku, Republic of Korea
         </div>
       </div>
       <div className="mt-2 md:mt-4">
-        <div>SEOUL OFFICE</div>
+        <div>SEOUL BRANCH OFFICE</div>
         <div className="md:mt-1">
           76, Haneul-gil, Gangseo-gu, Seoul, Republic of Korea
         </div>
