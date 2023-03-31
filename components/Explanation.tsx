@@ -13,7 +13,7 @@ const Explanation: FC = () => {
       </div>
       <div className="py-8 md:w-1/2 px-8">
         <div className="mb-4 font-bold text-2xl md:text-4xl">Deep ID ?</div>
-        <div>
+        <div className="text-lg md:text-xl">
           AI Vision & Blockchain technology integrated Anti-Counterfeiting
           Serviced Platform
         </div>
